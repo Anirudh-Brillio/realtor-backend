@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: my-express-app
   description: A simple Node.js application using the Express framework.
-  owner: your-username
+  owner: guests
   tags:
     - nodejs
     - express
