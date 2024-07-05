@@ -13,4 +13,5 @@ spec:
   lifecycle: production
   owner: team-name
   system: your-system
-  repository: https://github.com/Anirudh-Brillio/realtor-backend.git
+  repository: https://github.com/Anirudh-Brillio/realtor-backend
+  
