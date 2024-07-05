@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: realtor-backend
+  name: realtor_project
   description: A project related to real estate built using React.js and Json Server.
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
@@ -9,6 +9,8 @@ metadata:
     backstage.io/visibility: "catalog,metadata,overview"
     backstage.io/techdocs-ref: url:https://github.com/Anirudh-Brillio/realtor_project/blob/main/README.md
   tags: 
+    - react-js
+    - json-server
     - realestate
     - node-js
     - development
@@ -21,4 +23,4 @@ spec:
   type: library
   lifecycle: experimental
   owner: guests
-  subcomponentOf: realtor_project
+  subcomponentOf: example_website
