@@ -1,0 +1,53 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-express-app
+  description: A simple Node.js application using the Express framework.
+  owner: your-username
+  tags:
+    - nodejs
+    - express
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: team-name
+  system: your-system
+  repository: https://github.com/your-username/my-express-app
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-express-app-api
+  description: The API for My Express App.
+  owner: your-username
+spec:
+  type: openapi
+  lifecycle: production
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: My Express App API
+      version: 1.0.0
+    paths:
+      /:
+        get:
+          summary: Root endpoint
+          responses:
+            '200':
+              description: Returns a hello world message
+              content:
+                text/plain:
+                  schema:
+                    type: string
+                    example: Hello World!
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: my-express-app-location
+spec:
+  type: url
+  target: https://github.com/your-username/my-express-app/blob/main/catalog-info.yaml
