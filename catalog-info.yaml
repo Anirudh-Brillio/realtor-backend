@@ -1,53 +1,24 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: my-express-app
-  description: A simple Node.js application using the Express framework.
-  owner: guests
-  tags:
-    - nodejs
-    - express
-    - backend
+  name: realtor-backend
+  description: A project related to real estate built using React.js and Json Server.
+  annotations:
+    github.com/project-slug: Anirudh-Brillio/realtor_project
+    circleci.com/project-slug: gh/Anirudh-Brillio/realtor_project
+    backstage.io/visibility: "catalog,metadata,overview"
+    backstage.io/techdocs-ref: url:https://github.com/Anirudh-Brillio/realtor_project/blob/main/README.md
+  tags: 
+    - realestate
+    - node-js
+    - development
+  links:
+    - url: https://www.google.com
+      title: google site
+    - url: https://realtor-demo-assignment.netlify.app/
+      title: netlify
 spec:
-  type: service
-  lifecycle: production
-  owner: team-name
-  system: your-system
-  repository: https://github.com/Anirudh-Brillio/realtor-backend.git
-
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: API
-# metadata:
-#   name: my-express-app-api
-#   description: The API for My Express App.
-#   owner: guests
-# spec:
-#   type: openapi
-#   lifecycle: production
-#   definition: |
-#     openapi: 3.0.0
-#     info:
-#       title: My Express App API
-#       version: 1.0.0
-#     paths:
-#       /:
-#         get:
-#           summary: Root endpoint
-#           responses:
-#             '200':
-#               description: Returns a hello world message
-#               content:
-#                 text/plain:
-#                   schema:
-#                     type: string
-#                     example: Hello World!
-
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Location
-# metadata:
-#   name: my-express-app-location
-# spec:
-#   type: url
-#   target: https://github.com/Anirudh-Brillio/realtor-backend/blob/main/catalog-info.yaml
+  type: library
+  lifecycle: experimental
+  owner: guests
+  subcomponentOf: realtor_project
