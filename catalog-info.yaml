@@ -13,7 +13,7 @@ spec:
   lifecycle: production
   owner: team-name
   system: your-system
-  repository: https://github.com/your-username/my-express-app
+  repository:https://github.com/Anirudh-Brillio/realtor-backend.git
 
 ---
 apiVersion: backstage.io/v1alpha1
