@@ -21,7 +21,7 @@ kind: API
 metadata:
   name: my-express-app-api
   description: The API for My Express App.
-  owner: your-username
+  owner: guests
 spec:
   type: openapi
   lifecycle: production
