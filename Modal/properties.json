@@ -1,0 +1,603 @@
+[
+    {
+      "category": "New Listings",
+      "title": "Beautiful Family Home",
+      "price": 250000,
+      "quantity": 1,
+      "location": "New York, NY",
+      "details": {
+        "id": 1,
+        "title": "Beautiful Family Home",
+        "size": "2500 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "year_built": 2010,
+        "amenities": ["Pool", "Garage"],
+        "description": "A beautiful family home with spacious rooms and modern amenities.",
+        "nearby_schools": ["School A", "School B"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Luxurious Beachfront Villa",
+      "price": 5000000,
+      "quantity": 1,
+      "location": "Malibu, CA",
+      "details": {
+        "id": 2,
+        "title": "Luxurious Beachfront Villa",
+        "size": "5000 sq ft",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "year_built": 2015,
+        "amenities": ["Infinity Pool", "Private Beach", "Garage"],
+        "description": "An exquisite beachfront villa with stunning ocean views and top-of-the-line amenities.",
+        "nearby_schools": ["Elite School A", "Elite School B"],
+        "transportation": "Private helicopter pad",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Cozy Apartment",
+      "price": 150000,
+      "quantity": 1,
+      "location": "Riverside, CA",
+      "details": {
+        "id": 3,
+        "title": "Cozy Apartment",
+        "size": "800 sq ft",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "year_built": 2000,
+        "amenities": ["Gym", "Laundry Room"],
+        "description": "A cozy and affordable apartment in a quiet neighborhood.",
+        "nearby_schools": ["School C", "School D"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Downtown Office Space",
+      "price": 1000000,
+      "quantity": 1,
+      "location": "Metropolis, NY",
+      "details": {
+        "id": 4,
+        "title": "Downtown Office Space",
+        "size": "10000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 2,
+        "year_built": 2018,
+        "amenities": ["Conference Rooms", "Cafeteria"],
+        "description": "A prime office space located in the bustling downtown area of Metropolis.",
+        "nearby_schools": [],
+        "transportation": "Close to subway and bus lines",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Modern Penthouse",
+      "price": 4500000,
+      "quantity": 1,
+      "location": "Miami, FL",
+      "details": {
+        "id": 5,
+        "title": "Modern Penthouse",
+        "size": "3500 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "year_built": 2019,
+        "amenities": ["Rooftop Pool", "Private Elevator"],
+        "description": "A luxurious modern penthouse with breathtaking views and top-notch amenities.",
+        "nearby_schools": ["Private School A", "Private School B"],
+        "transportation": "Close to metro station",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Suburban Family House",
+      "price": 350000,
+      "quantity": 1,
+      "location": "Austin, TX",
+      "details": {
+        "id": 6,
+        "title": "Suburban Family House",
+        "size": "2800 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "year_built": 2012,
+        "amenities": ["Backyard", "Garage"],
+        "description": "A beautiful suburban family house with a spacious backyard and modern facilities.",
+        "nearby_schools": ["School E", "School F"],
+        "transportation": "Close to bus lines",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Exclusive Mountain Cabin",
+      "price": 1200000,
+      "quantity": 1,
+      "location": "Aspen, CO",
+      "details": {
+        "id": 7,
+        "title": "Exclusive Mountain Cabin",
+        "size": "1500 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "year_built": 2008,
+        "amenities": ["Fireplace", "Ski Access"],
+        "description": "An exclusive mountain cabin with ski-in/ski-out access and stunning views.",
+        "nearby_schools": ["Mountain School A"],
+        "transportation": "Close to ski lifts",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Retail Space",
+      "price": 2000000,
+      "quantity": 1,
+      "location": "Los Angeles, CA",
+      "details": {
+        "id": 8,
+        "title": "Retail Space",
+        "size": "5000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 2,
+        "year_built": 2010,
+        "amenities": ["Parking Lot"],
+        "description": "A spacious retail space located in a high-traffic area, ideal for businesses.",
+        "nearby_schools": [],
+        "transportation": "Close to major highways",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Charming Cottage",
+      "price": 180000,
+      "quantity": 1,
+      "location": "Portland, OR",
+      "details": {
+        "id": 9,
+        "title": "Charming Cottage",
+        "size": "1200 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "year_built": 1995,
+        "amenities": ["Garden", "Fireplace"],
+        "description": "A charming cottage with a lovely garden and cozy interior.",
+        "nearby_schools": ["School G", "School H"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Modern Family Home",
+      "price": 300000,
+      "quantity": 1,
+      "location": "Seattle, WA",
+      "details": {
+        "id": 10,
+        "title": "Modern Family Home",
+        "size": "2200 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "year_built": 2015,
+        "amenities": ["Garage", "Backyard"],
+        "description": "A modern family home with stylish interiors and a spacious backyard.",
+        "nearby_schools": ["School I", "School J"],
+        "transportation": "Close to metro station",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Elegant Estate",
+      "price": 7500000,
+      "quantity": 1,
+      "location": "Beverly Hills, CA",
+      "details": {
+        "id": 11,
+        "title": "Elegant Estate",
+        "size": "7000 sq ft",
+        "bedrooms": 8,
+        "bathrooms": 7,
+        "year_built": 2020,
+        "amenities": ["Pool", "Tennis Court", "Home Theater"],
+        "description": "An elegant estate with luxurious amenities and expansive grounds.",
+        "nearby_schools": ["Elite School C"],
+        "transportation": "Close to major highways",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Industrial Warehouse",
+      "price": 3000000,
+      "quantity": 1,
+      "location": "Houston, TX",
+      "details": {
+        "id": 12,
+        "title": "Industrial Warehouse",
+        "size": "20000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 4,
+        "year_built": 2015,
+        "amenities": ["Loading Dock", "Office Space"],
+        "description": "A large industrial warehouse with modern facilities, perfect for storage and distribution.",
+        "nearby_schools": [],
+        "transportation": "Close to major transport routes",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Spacious Townhouse",
+      "price": 450000,
+      "quantity": 1,
+      "location": "Chicago, IL",
+      "details": {
+        "id": 13,
+        "title": "Spacious Townhouse",
+        "size": "1800 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "year_built": 2010,
+        "amenities": ["Garage", "Rooftop Terrace"],
+        "description": "A spacious townhouse in a prime location with modern amenities.",
+        "nearby_schools": ["School K", "School L"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Quaint Bungalow",
+      "price": 200000,
+      "quantity": 1,
+      "location": "Savannah, GA",
+      "details": {
+        "id": 14,
+        "title": "Quaint Bungalow",
+        "size": "1400 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "year_built": 1990,
+        "amenities": ["Garden", "Fireplace"],
+        "description": "A quaint bungalow with a lovely garden and cozy interior.",
+        "nearby_schools": ["School M", "School N"],
+        "transportation": "Close to bus lines",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Penthouse Suite",
+      "price": 8000000,
+      "quantity": 1,
+      "location": "New York, NY",
+      "details": {
+        "id": 15,
+        "title": "Penthouse Suite",
+        "size": "4000 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "year_built": 2018,
+        "amenities": ["Private Elevator", "Rooftop Pool"],
+        "description": "A luxurious penthouse suite with breathtaking views and top-notch amenities.",
+        "nearby_schools": ["Elite School D", "Elite School E"],
+        "transportation": "Close to subway and bus lines",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Office Complex",
+      "price": 5000000,
+      "quantity": 1,
+      "location": "San Francisco, CA",
+      "details": {
+        "id": 16,
+        "title": "Office Complex",
+        "size": "30000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 10,
+        "year_built": 2012,
+        "amenities": ["Conference Rooms", "Cafeteria"],
+        "description": "A large office complex with modern facilities, located in the heart of the city.",
+        "nearby_schools": [],
+        "transportation": "Close to major highways and public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Modern Condo",
+      "price": 400000,
+      "quantity": 1,
+      "location": "Boston, MA",
+      "details": {
+        "id": 17,
+        "title": "Modern Condo",
+        "size": "1200 sq ft",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "year_built": 2016,
+        "amenities": ["Gym", "Swimming Pool"],
+        "description": "A modern condo with stylish interiors and access to building amenities.",
+        "nearby_schools": ["School O", "School P"],
+        "transportation": "Close to metro station",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Seaside Mansion",
+      "price": 10000000,
+      "quantity": 1,
+      "location": "Miami Beach, FL",
+      "details": {
+        "id": 18,
+        "title": "Seaside Mansion",
+        "size": "8000 sq ft",
+        "bedrooms": 7,
+        "bathrooms": 8,
+        "year_built": 2020,
+        "amenities": ["Private Beach", "Infinity Pool", "Home Theater"],
+        "description": "A luxurious seaside mansion with private beach access and top-of-the-line amenities.",
+        "nearby_schools": ["Elite School F", "Elite School G"],
+        "transportation": "Private helipad",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Downtown Retail Store",
+      "price": 2500000,
+      "quantity": 1,
+      "location": "Philadelphia, PA",
+      "details": {
+        "id": 19,
+        "title": "Downtown Retail Store",
+        "size": "6000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 2,
+        "year_built": 2010,
+        "amenities": ["Parking Lot"],
+        "description": "A prime retail store located in the bustling downtown area, ideal for businesses.",
+        "nearby_schools": [],
+        "transportation": "Close to major highways",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Starter Home",
+      "price": 150000,
+      "quantity": 1,
+      "location": "Columbus, OH",
+      "details": {
+        "id": 20,
+        "title": "Starter Home",
+        "size": "1100 sq ft",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "year_built": 1985,
+        "amenities": ["Backyard", "Garage"],
+        "description": "A cozy starter home with a backyard and garage, perfect for small families.",
+        "nearby_schools": ["School Q", "School R"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Elegant Townhouse",
+      "price": 450000,
+      "quantity": 1,
+      "location": "Denver, CO",
+      "details": {
+        "id": 21,
+        "title": "Elegant Townhouse",
+        "size": "2000 sq ft",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "year_built": 2010,
+        "amenities": ["Garage", "Rooftop Terrace"],
+        "description": "An elegant townhouse with modern amenities and a rooftop terrace.",
+        "nearby_schools": ["School S", "School T"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Historic Mansion",
+      "price": 5000000,
+      "quantity": 1,
+      "location": "Charleston, SC",
+      "details": {
+        "id": 22,
+        "title": "Historic Mansion",
+        "size": "7000 sq ft",
+        "bedrooms": 6,
+        "bathrooms": 6,
+        "year_built": 1920,
+        "amenities": ["Garden", "Pool"],
+        "description": "A historic mansion with timeless elegance and modern amenities.",
+        "nearby_schools": ["Elite School H"],
+        "transportation": "Close to downtown",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Business Park",
+      "price": 15000000,
+      "quantity": 1,
+      "location": "Dallas, TX",
+      "details": {
+        "id": 23,
+        "title": "Business Park",
+        "size": "100000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 20,
+        "year_built": 2015,
+        "amenities": ["Conference Rooms", "Parking Lot", "Cafeteria"],
+        "description": "A large business park with modern facilities and ample parking.",
+        "nearby_schools": [],
+        "transportation": "Close to major highways",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Compact Studio",
+      "price": 120000,
+      "quantity": 1,
+      "location": "San Diego, CA",
+      "details": {
+        "id": 24,
+        "title": "Compact Studio",
+        "size": "500 sq ft",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "year_built": 2010,
+        "amenities": ["Gym", "Swimming Pool"],
+        "description": "A compact studio apartment with access to building amenities.",
+        "nearby_schools": ["School U"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Contemporary Home",
+      "price": 380000,
+      "quantity": 1,
+      "location": "Phoenix, AZ",
+      "details": {
+        "id": 25,
+        "title": "Contemporary Home",
+        "size": "2400 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "year_built": 2017,
+        "amenities": ["Backyard", "Garage"],
+        "description": "A contemporary home with modern design and a spacious backyard.",
+        "nearby_schools": ["School V", "School W"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "Urban Loft",
+      "price": 900000,
+      "quantity": 1,
+      "location": "San Francisco, CA",
+      "details": {
+        "id": 26,
+        "title": "Urban Loft",
+        "size": "1800 sq ft",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "year_built": 2018,
+        "amenities": ["Gym", "Rooftop Terrace"],
+        "description": "A luxurious urban loft with modern amenities and stunning city views.",
+        "nearby_schools": ["Elite School I", "Elite School J"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Commercial Listings",
+      "title": "Tech Hub Office",
+      "price": 8000000,
+      "quantity": 1,
+      "location": "Silicon Valley, CA",
+      "details": {
+        "id": 27,
+        "title": "Tech Hub Office",
+        "size": "50000 sq ft",
+        "bedrooms": 0,
+        "bathrooms": 15,
+        "year_built": 2015,
+        "amenities": ["Conference Rooms", "Cafeteria", "Parking Lot"],
+        "description": "A state-of-the-art office space in the heart of Silicon Valley, ideal for tech companies.",
+        "nearby_schools": [],
+        "transportation": "Close to major highways and public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Affordable Listings",
+      "title": "Economy Apartment",
+      "price": 100000,
+      "quantity": 1,
+      "location": "Cleveland, OH",
+      "details": {
+        "id": 28,
+        "title": "Economy Apartment",
+        "size": "700 sq ft",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "year_built": 2005,
+        "amenities": ["Laundry Room"],
+        "description": "An affordable apartment with basic amenities, ideal for small families.",
+        "nearby_schools": ["School X", "School Y"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "New Listings",
+      "title": "Family Home",
+      "price": 320000,
+      "quantity": 1,
+      "location": "Orlando, FL",
+      "details": {
+        "id": 29,
+        "title": "Family Home",
+        "size": "2600 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "year_built": 2014,
+        "amenities": ["Backyard", "Garage"],
+        "description": "A spacious family home with modern amenities and a large backyard.",
+        "nearby_schools": ["School Z", "School AA"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    },
+    {
+      "category": "Luxury Listings",
+      "title": "High-Rise Apartment",
+      "price": 3500000,
+      "quantity": 1,
+      "location": "Chicago, IL",
+      "details": {
+        "id": 30,
+        "title": "High-Rise Apartment",
+        "size": "3500 sq ft",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "year_built": 2021,
+        "amenities": ["Gym", "Swimming Pool", "Parking Garage"],
+        "description": "A luxurious high-rise apartment with stunning views and modern amenities.",
+        "nearby_schools": ["Elite School K"],
+        "transportation": "Close to public transport",
+        "photos": ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+      }
+    }
+  ]
+  
