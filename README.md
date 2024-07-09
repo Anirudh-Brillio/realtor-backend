@@ -1,3 +1,39 @@
+# Realtor Property Management API
+
+## Overview
+
+This project provides a RESTful API for managing real estate property listings. It is built using Node.js, Express, and MongoDB, and it allows clients to create, read, and group property listings by category. The API also supports CORS for cross-origin requests.
+
+## Features
+
+- Connects to MongoDB using Mongoose
+- Allows fetching all properties
+- Allows adding a new property
+- Groups properties by unique categories
+- Handles errors gracefully
+
+## Requirements
+
+- Node.js
+- MongoDB
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- MongoDB: [Download and install MongoDB](https://www.mongodb.com/try/download/community)
+
+### Installation
+
+1. Clone the repository:
+   
+sh
+   git clone https://github.com/your-repo/realtor-property-management-api.git
+   cd realtor-property-management-api
+
 ## API Endpoints
 
 ### Get All Properties
