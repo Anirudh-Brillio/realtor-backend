@@ -34,7 +34,7 @@ app.get("/Property", async (req, res) => {
   }
 });
 
-// POST a new property
+// POST a new property 
 app.post("/Property", async (req, res) => {
   try {
     const { category, title, price, quantity, location, details } = req.body;
