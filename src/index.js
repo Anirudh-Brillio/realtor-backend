@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const PropertyModel = require("./Modal/Properties");
+const PropertyModel = require("../Modal/Properties");
 const cors = require("cors")
 // const properties = require('./Modal/properties.json');
 const app = express();
