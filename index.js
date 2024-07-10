@@ -97,6 +97,35 @@ app.get("/getByUniqueCategory", async (req, res) => {
   });
   
 
+  app.get("/details/:id", async (req, res) => {
+    try {
+      const data = await PropertyModel.findById(req.params.id);
+      if (!data) {
+        return res.status(404).json({
+          message: "Data not found",
+        });
+      }
+      res.status(200).json({
+        message: "Data fetched successfully",
+        data: data
+      });
+    } catch (error) {
+      res.status(500).json({
+        message: "An error occurred",
+        error: error.message,
+      });
+    }
+  });
+  
+
+  app.get("/properties/:Category", async (req,res)=>{
+    const data = await PropertyModel.find({category : req.params.Category})
+    res.status(200).json({
+      message : "data fetched successfully",
+      data : data
+    })
+  })
+
 const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
